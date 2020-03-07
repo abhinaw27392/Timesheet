@@ -1,0 +1,24 @@
+2019-06-17 16:24:35,213 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 3440 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-17 16:24:35,217 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-17 16:24:35,218 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-17 16:26:31,267 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 9236 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-17 16:26:31,272 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-17 16:26:31,273 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-18 15:15:35,077 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 11604 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-18 15:15:35,105 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-18 15:15:35,109 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-18 15:25:55,638 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 12876 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-18 15:25:55,641 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-18 15:25:55,655 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-18 15:36:31,844 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 10800 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-18 15:36:31,848 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-18 15:36:31,852 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-19 12:38:57,861 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 3032 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-19 12:38:57,892 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-19 12:38:57,904 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-19 12:43:45,699 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 8168 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-19 12:43:45,700 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-19 12:43:45,705 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2019-06-19 12:45:57,932 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-0EK1PF4 with PID 8448 (D:\AHITimesheet\backend\build\libs\backend.war started by AbhinawKumar in D:\AHITimesheet\backend)
+2019-06-19 12:45:57,936 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2019-06-19 12:45:57,937 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default

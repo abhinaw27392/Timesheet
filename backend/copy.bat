@@ -1,0 +1,1 @@
+xcopy  D:\AHITimesheet\ui\build  D:\AHITimesheet\backend\src\main\resources\public /E

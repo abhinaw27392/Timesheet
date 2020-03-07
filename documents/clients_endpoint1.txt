@@ -1,0 +1,40 @@
+
+Endpoints for clients:
+
+1>GET(getAllClients): http://localhost:6090/ahits/api/clients/all
+2>POST: (addClients/updateClients): http://localhost:6090/ahits/api/clients/
+	for add:
+		{
+			"clientId": null,
+			"clientName": "sony music",
+			"clientDesc": "sme entertainment",
+			"clientLocation": "USA"
+		}
+	for update:
+		{
+			"clientId": 2,
+			"clientName": "sony music",
+			"clientDesc": "sme entertainment",
+			"clientLocation": "USA"
+		}
+
+3>DELETE:(deleteClient): http://localhost:6090/ahits/api/clients/delete
+
+4> POST (add/updateProject): http://localhost:6090/ahits/api/projects/
+
+	for add:
+		{
+			"projectId": null,
+			"projectName": "asset management",
+			"projectDescription": "related to assets of office",
+			"headedByUserId": 41,
+			"ahiClients": {"clientId": 2}
+		}	
+	for update:
+		{
+			"projectId": 18,
+			"projectName": "asset management",
+			"projectDescription": "related to assets of office",
+			"headedByUserId": 41,
+			"ahiClients": {"clientId": 2}
+		}

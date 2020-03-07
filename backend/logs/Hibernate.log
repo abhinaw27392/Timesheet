@@ -1,0 +1,169 @@
+2019-06-19 12:45:58,822 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 6.0.5.Final
+2019-06-19 12:45:58,844 DEBUG [background-preinit] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:93] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-06-19 12:45:58,849 DEBUG [background-preinit] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:103] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-06-19 12:45:58,849 DEBUG [background-preinit] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:109] Unable to load or instantiate JPA aware resolver org.hibernate.validator.internal.engine.resolver.JPATraversableResolver. All properties will per default be traversable.
+2019-06-19 12:46:01,762 DEBUG [main] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:93] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-06-19 12:46:01,762 DEBUG [main] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:103] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-06-19 12:46:01,767 DEBUG [main] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:109] Unable to load or instantiate JPA aware resolver org.hibernate.validator.internal.engine.resolver.JPATraversableResolver. All properties will per default be traversable.
+2019-06-19 12:46:01,804 DEBUG [main] o.h.v.m.ResourceBundleMessageInterpolator [ResourceBundleMessageInterpolator.java:89] Loaded expression factory via original TCCL
+2019-06-19 12:46:01,805 DEBUG [main] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:93] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-06-19 12:46:01,805 DEBUG [main] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:103] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-06-19 12:46:01,806 DEBUG [main] o.h.v.i.e.r.TraversableResolvers [TraversableResolvers.java:109] Unable to load or instantiate JPA aware resolver org.hibernate.validator.internal.engine.resolver.JPATraversableResolver. All properties will per default be traversable.
+2019-06-19 12:46:01,821 DEBUG [main] o.h.v.i.e.ConfigurationImpl [ConfigurationImpl.java:147] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-06-19 12:46:01,822 DEBUG [main] o.h.v.i.e.ConfigurationImpl [ConfigurationImpl.java:179] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-06-19 12:46:01,822 DEBUG [main] o.h.v.i.e.ConfigurationImpl [ConfigurationImpl.java:193] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-06-19 12:46:01,835 DEBUG [main] o.h.v.i.x.ValidationXmlParser [ValidationXmlParser.java:133] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-06-19 12:46:01,836 DEBUG [main] o.h.v.i.x.ResourceLoaderHelper [ResourceLoaderHelper.java:53] Trying to load META-INF/validation.xml via user class loader
+2019-06-19 12:46:01,841 DEBUG [main] o.h.v.i.x.ResourceLoaderHelper [ResourceLoaderHelper.java:60] Trying to load META-INF/validation.xml via TCCL
+2019-06-19 12:46:01,842 DEBUG [main] o.h.v.i.x.ResourceLoaderHelper [ResourceLoaderHelper.java:66] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-06-19 12:46:01,843 DEBUG [main] o.h.v.i.x.ValidationXmlParser [ValidationXmlParser.java:140] No META-INF/validation.xml found. Using annotation based configuration only.
+2019-06-19 12:46:02,292 INFO [main] o.h.v.i.e.ValidatorFactoryImpl [ValidatorFactoryImpl.java:575] HV000238: Temporal validation tolerance set to 0.
+2019-06-19 12:46:02,298 DEBUG [main] o.h.v.i.e.ValidatorFactoryImpl [ValidatorFactoryImpl.java:606] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-06-19 12:46:02,299 DEBUG [main] o.h.v.i.e.ValidatorFactoryImpl [ValidatorFactoryImpl.java:607] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-06-19 12:46:02,299 DEBUG [main] o.h.v.i.e.ValidatorFactoryImpl [ValidatorFactoryImpl.java:608] HV000234: Using org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1 as ValidatorFactory-scoped parameter name provider.
+2019-06-19 12:46:02,300 DEBUG [main] o.h.v.i.e.ValidatorFactoryImpl [ValidatorFactoryImpl.java:609] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-06-19 12:46:02,300 DEBUG [main] o.h.v.i.e.ValidatorFactoryImpl [ValidatorFactoryImpl.java:610] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-06-19 12:46:16,992 DEBUG [localhost-startStop-1] o.h.j.i.u.LogHelper [LogHelper.java:102] PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.loader.LaunchedURLClassLoader@6193b845
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/AHITimesheet/backend/build/libs/backend.war
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.ahi.entity.AhiClients
+		com.ahi.entity.AhiDepartments
+		com.ahi.entity.AhiProjects
+		com.ahi.entity.AhiTasks
+		com.ahi.entity.AhiTimesheet
+		com.ahi.entity.AhiUser
+		com.ahi.entity.SecurityGroup]
+	Mapping files names []
+	Properties []
+2019-06-19 12:46:17,026 DEBUG [localhost-startStop-1] o.h.i.i.IntegratorServiceImpl [IntegratorServiceImpl.java:46] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2019-06-19 12:46:17,026 DEBUG [localhost-startStop-1] o.h.i.i.IntegratorServiceImpl [IntegratorServiceImpl.java:46] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2019-06-19 12:46:17,026 DEBUG [localhost-startStop-1] o.h.i.i.IntegratorServiceImpl [IntegratorServiceImpl.java:46] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2019-06-19 12:46:17,026 DEBUG [localhost-startStop-1] o.h.i.i.IntegratorServiceImpl [IntegratorServiceImpl.java:46] Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2019-06-19 12:46:17,146 INFO [localhost-startStop-1] o.h.Version [Version.java:45] HHH000412: Hibernate Core {5.2.12.Final}
+2019-06-19 12:46:17,148 INFO [localhost-startStop-1] o.h.c.Environment [Environment.java:213] HHH000206: hibernate.properties not found
+2019-06-19 12:46:17,166 DEBUG [localhost-startStop-1] o.h.s.s.ServiceBinding [ServiceBinding.java:68] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2019-06-19 12:46:17,202 DEBUG [localhost-startStop-1] o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:75] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2019-06-19 12:46:17,219 INFO [localhost-startStop-1] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 12:46:17,442 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration boolean -> org.hibernate.type.BooleanType@5488846d
+2019-06-19 12:46:17,442 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration boolean -> org.hibernate.type.BooleanType@5488846d
+2019-06-19 12:46:17,442 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5488846d
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@e3df4c1
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration true_false -> org.hibernate.type.TrueFalseType@1cb3b8c6
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration yes_no -> org.hibernate.type.YesNoType@6ea02521
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration byte -> org.hibernate.type.ByteType@7e9b6f74
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration byte -> org.hibernate.type.ByteType@7e9b6f74
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7e9b6f74
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration character -> org.hibernate.type.CharacterType@1fe1179a
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration char -> org.hibernate.type.CharacterType@1fe1179a
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1fe1179a
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration short -> org.hibernate.type.ShortType@1e95e928
+2019-06-19 12:46:17,458 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration short -> org.hibernate.type.ShortType@1e95e928
+2019-06-19 12:46:17,469 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1e95e928
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration integer -> org.hibernate.type.IntegerType@71734ef6
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration int -> org.hibernate.type.IntegerType@71734ef6
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@71734ef6
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration long -> org.hibernate.type.LongType@54b66f63
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration long -> org.hibernate.type.LongType@54b66f63
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Long -> org.hibernate.type.LongType@54b66f63
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration float -> org.hibernate.type.FloatType@43fcffa8
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration float -> org.hibernate.type.FloatType@43fcffa8
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@43fcffa8
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration double -> org.hibernate.type.DoubleType@72918256
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration double -> org.hibernate.type.DoubleType@72918256
+2019-06-19 12:46:17,470 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@72918256
+2019-06-19 12:46:17,489 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@197e660c
+2019-06-19 12:46:17,489 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@197e660c
+2019-06-19 12:46:17,490 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7e54df37
+2019-06-19 12:46:17,490 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7e54df37
+2019-06-19 12:46:17,490 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration string -> org.hibernate.type.StringType@5af17eea
+2019-06-19 12:46:17,490 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.String -> org.hibernate.type.StringType@5af17eea
+2019-06-19 12:46:17,496 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@240cc4d0
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4ea8885b
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration url -> org.hibernate.type.UrlType@165d5bde
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.net.URL -> org.hibernate.type.UrlType@165d5bde
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration Duration -> org.hibernate.type.DurationType@478a61d1
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@478a61d1
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration Instant -> org.hibernate.type.InstantType@5e207b4
+2019-06-19 12:46:17,497 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5e207b4
+2019-06-19 12:46:17,506 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@f82bd03
+2019-06-19 12:46:17,506 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@f82bd03
+2019-06-19 12:46:17,506 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@737d8486
+2019-06-19 12:46:17,506 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@737d8486
+2019-06-19 12:46:17,506 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@67edf7d1
+2019-06-19 12:46:17,513 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@67edf7d1
+2019-06-19 12:46:17,514 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7227933f
+2019-06-19 12:46:17,514 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7227933f
+2019-06-19 12:46:17,517 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@68d742dd
+2019-06-19 12:46:17,517 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@68d742dd
+2019-06-19 12:46:17,520 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@16e0d18f
+2019-06-19 12:46:17,521 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@16e0d18f
+2019-06-19 12:46:17,523 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration date -> org.hibernate.type.DateType@29c4c06b
+2019-06-19 12:46:17,523 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.sql.Date -> org.hibernate.type.DateType@29c4c06b
+2019-06-19 12:46:17,524 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration time -> org.hibernate.type.TimeType@18873889
+2019-06-19 12:46:17,524 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@18873889
+2019-06-19 12:46:17,524 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration timestamp -> org.hibernate.type.TimestampType@1768ceb0
+2019-06-19 12:46:17,528 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1768ceb0
+2019-06-19 12:46:17,528 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1768ceb0
+2019-06-19 12:46:17,529 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@714097b
+2019-06-19 12:46:17,529 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration calendar -> org.hibernate.type.CalendarType@85c566a
+2019-06-19 12:46:17,529 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@85c566a
+2019-06-19 12:46:17,529 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@85c566a
+2019-06-19 12:46:17,529 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@29be7498
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration locale -> org.hibernate.type.LocaleType@78f22251
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@78f22251
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration currency -> org.hibernate.type.CurrencyType@5f0aa3e5
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5f0aa3e5
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration timezone -> org.hibernate.type.TimeZoneType@358f5168
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@358f5168
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration class -> org.hibernate.type.ClassType@6f4fe9f5
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6f4fe9f5
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@646aee7
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@646aee7
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@cd92041
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration binary -> org.hibernate.type.BinaryType@431234a3
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration byte[] -> org.hibernate.type.BinaryType@431234a3
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration [B -> org.hibernate.type.BinaryType@431234a3
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@53026d75
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@53026d75
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@53026d75
+2019-06-19 12:46:17,534 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration row_version -> org.hibernate.type.RowVersionType@6080d064
+2019-06-19 12:46:17,550 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration image -> org.hibernate.type.ImageType@259e2f1d
+2019-06-19 12:46:17,551 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration characters -> org.hibernate.type.CharArrayType@777ba021
+2019-06-19 12:46:17,551 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration char[] -> org.hibernate.type.CharArrayType@777ba021
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration [C -> org.hibernate.type.CharArrayType@777ba021
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@37d2127e
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@37d2127e
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@37d2127e
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration text -> org.hibernate.type.TextType@51b7e710
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration ntext -> org.hibernate.type.NTextType@505ccfc
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration blob -> org.hibernate.type.BlobType@2f551ed5
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2f551ed5
+2019-06-19 12:46:17,552 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@8b3b8a3
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration clob -> org.hibernate.type.ClobType@66d241c2
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@66d241c2
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration nclob -> org.hibernate.type.NClobType@4d9b03c8
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4d9b03c8
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4abf1f18
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5fdcd04c
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration serializable -> org.hibernate.type.SerializableType@2bf44624
+2019-06-19 12:46:17,568 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration object -> org.hibernate.type.ObjectType@3ee485d1
+2019-06-19 12:46:17,584 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3ee485d1
+2019-06-19 12:46:17,584 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@c910aca
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@35f6f5a4
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3cba4058
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@26ea8013
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2229095e
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2070936a
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4e26bfbc
+2019-06-19 12:46:17,585 DEBUG [localhost-startStop-1] o.h.t.BasicTypeRegistry [BasicTypeRegistry.java:145] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3c3e4473
+2019-06-19 12:46:22,640 WARN [localhost-startStop-1] o.h.e.j.e.i.JdbcEnvironmentInitiator [JdbcEnvironmentInitiator.java:132] HHH000342: Could not obtain connection to query metadata : Could not create connection to database server. Attempted reconnect 3 times. Giving up.
