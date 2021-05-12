@@ -24,7 +24,7 @@
     "react-select": "^2.1.2",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
-    "trim": "0.0.1",
+    "trim": "0.0.3",
     "uuid": "^3.3.2"
   },
   "scripts": {
